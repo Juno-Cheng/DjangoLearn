@@ -1,0 +1,29 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+
+# Backup files #
+*.bak
+
+# If using Celery, you might want to include this #
+celerybeat-schedule
+celerybeat.pid
+
+# If using Docker, uncomment the next line #
+# docker-compose.override.yml
+
+# Pycharm & VSCode #
+.idea/
+.vscode/
+
+# Cache files for PyTest #
+.pytest_cache/
+
+# mypy cache #
+.mypy_cache/
